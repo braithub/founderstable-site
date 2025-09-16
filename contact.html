@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact&nbsp;Us&nbsp;|&nbsp;Founders&nbsp;Table</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-white text-gray-900 font-sans">
+  <!-- Header and Navigation -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-semibold text-gray-800" aria-label="Founders Table home page">Founders&nbsp;Table</a>
+      <nav class="space-x-6">
+        <a href="index.html" class="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-black">Home</a>
+        <a href="about.html" class="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-black">About</a>
+        <a href="careers.html" class="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-black">Careers</a>
+        <a href="contact.html" class="text-gray-700 hover:text-gray-900 focus:outline-none focus:text-black">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section class="bg-gray-50">
+      <div class="container mx-auto px-6 py-16 max-w-4xl">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900">Contact&nbsp;Us</h1>
+        <p class="text-gray-700 leading-relaxed mb-8">
+          We’d love to hear from you. Use the form below to reach out with any questions or comments.
+        </p>
+        <div class="grid md:grid-cols-2 gap-12">
+          <!-- Contact Form -->
+          <form class="space-y-4" aria-label="Contact form (placeholder)">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+              <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600" placeholder="Your Name" disabled />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+              <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600" placeholder="you@example.com" disabled />
+            </div>
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+              <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-600" placeholder="Your message" disabled></textarea>
+            </div>
+            <button type="submit" class="px-6 py-3 bg-black text-white rounded-md cursor-not-allowed" disabled>Submit</button>
+            <p class="text-xs text-gray-500">This form is currently a placeholder and does not submit data.</p>
+          </form>
+          <!-- Google Map -->
+          <div class="w-full h-64 md:h-auto rounded-md overflow-hidden">
+            <iframe title="Our Location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.9997518601176!2d151.211104!3d-33.868820!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3b18cdf345%3A0x5017d681632ccc0!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sus!4v1639051411121" width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6">
+    <div class="container mx-auto px-6 text-center text-sm text-gray-600">
+      ©&nbsp;2025&nbsp;Founders&nbsp;Table.&nbsp;All&nbsp;rights&nbsp;reserved.
+    </div>
+  </footer>
+</body>
+</html>
