@@ -1,0 +1,11 @@
+/*
+ * Tailwind CSS import
+ *
+ * This file imports Tailwind from a CDN. You can add additional custom styles
+ * below the import as your project evolves. If you choose to self-host
+ * Tailwind or use a build step, replace this import accordingly.
+ */
+
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css');
+
+/* Custom styles can be added here */
